@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <link rel="stylesheet" href="meusite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+    <div class="menu">
+        <div>
+            <a href="index.html"></a><img src="img/FastBuyGame.png" alt="Logo">
+        </div>
+        
+        <div>
+            <a href="MinhaLoja.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Loja</a>
+            <a href="MeuContato.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contato</a>
+            <a href="meusobre.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Sobre</a>
+        </div>
+
+    </div>
+
+    <div class="inicio">
+        <h1>Loja</h1>
+        <br>
+        <hr>
+    </div>
+
+    <div class="cards">
+        
+    <div class="card-container">
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="Elden ring.webp" alt="Elden Ring">
+            <label>R$ 229,90</label>
+            <div class="description"> <h6 style="color: black;">A história gira em torno de um objeto chamado "Elden Ring", quebrado e causando desordem no mundo. Os jogadores embarcam em uma jornada para restaurar o Elden Ring e restaurar a ordem ao mundo.</h6></div>
+        </div>
+
+    
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/God of War.jpeg" alt="Imagem 1">
+            <label>R$ 249,90</label>
+            <div class="description"> <h6 style="color: black;">Traz a mais nova aventura de Kratos, o Deus da Guerra, e seu filho, Atreus, tentando impedir o fim dos Nove Reinos, que tem relação com deuses e entidades da mitologia nórdica. </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Hades_capa.jpg" alt="Hades">
+            <label>R$ 73,90</label>
+            <div class="description"> <h6 style="color: black;">Hades conta a história de Zagreu, filho do próprio deus do submundo, Hades. O jovem deus, descontente com a vida que leva no inferno, com as constantes broncas e brigas que tem com seu pai e após ter uma gigantesca descoberta sobre sua própria existência, decide escapar do inferno por conta própria.</h6></div>
+            
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Lost Ark.jpeg" alt="Lost Ark">
+            <label>Grátis</label>
+            <div class="description"> <h6 style="color: black;">O Lost Ark fornece uma experiência exclusiva de masmorras. Você vai enfrentar monstros e chefes para obter espólios, mas poderá escolher jogar sozinho na Masmorra Abissal ou em grupo nas Masmorras do Caos. Exatamente como tudo no Lost Ark, suas escolhas vão definir o seu destino. </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Hogwarts Legacy.jpeg" alt="Hogwarts Legacy">
+            <label>R$ 239,90</label>
+            <div class="description"> <h6 style="color: black;">Hogwarts Legacy é um RPG de ação e mundo aberto ambientado no mundo apresentado nos livros de Harry Potter. Agora você pode assumir o controle da ação e criar sua própria aventura. </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Uncharted.jpeg" alt="Uncharted">
+            <label>R$ 62,90</label>
+            <div class="description"> <h6 style="color: black;">A série segue as aventuras de Nathan "Nate" Drake, um caçador de tesouros e o protagonista do Jogo, o seu mentor e amigo Victor "Sully" Sullivan, e da jornalista Elena Fisher, e de vários outros companheiros secundários que Drake conhece enquanto viaja ao redor do mundo para descobrir mistérios históricos. </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Skyrim.jpeg" alt="Skyrim">
+            <label>R$ 149,90</label>
+            <div class="description"><h6 style="color: black;">O jogo gira em torno do dragonborn, um cidadão que, em meio ao ressurgimento dos dragões, descobre que é dotado da habilidade de absorver as almas deles, causando curiosidade e espanto para os habitantes de Skyrim. Seu objetivo então é enfrentar Alduin, o Deus Nórdico da Destruição e causador desse caos completo. </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Subnautica.jpeg" alt="Subnautica">
+            <label>R$ 57,90</label>
+            <div class="description"><h6 style="color: black;">Subnautica é um jogo de exploração e sobrevivência em primeira pessoa no qual o jogador controla um astronauta que, ao cair em um planeta desconhecido, deve encarar as profundezas de um enorme oceano enquanto coleta recursos para tentar sobreviver, enfrentar as misteriosas criaturas do fundo do mar e encontrar um resgate.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Red Dead Redemption II.jpeg" alt="Red Dead Reddemption II">
+            <label>R$ 159,90</label>
+            <div class="description"><h6 style="color: black;">A história se passa em 1899 em uma representação ficcional do oeste, meio-oeste e sul dos Estados Unidos e acompanha o fora da lei Arthur Morgan, que precisa lidar com o declínio do Velho Oeste e sobreviver à perseguição de forças governamentais, gangues rivais e outros adversários.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Shadow Of Tomb Raider.jpeg" alt="Shadow Of Tomb Raider">
+            <label>R$ 69,90</label>
+            <div class="description"><h6 style="color: black;">é um jogo de ação e aventura jogado de uma perspectiva de terceira pessoa; Os jogadores assumem o papel da protagonista Lara Croft enquanto ela explora ambientes em todo o continente da América do Sul.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Pubg.jpeg" alt="Pubg">
+            <label>Grátis</label>
+            <div class="description"><h6 style="color: black;">O objetivo do jogo é, basicamente, eliminar seus oponentes e ser o último sobrevivente do mapa virtual onde toda a história se desenrola. São centenas de jogadores em cada partida que dura, em média, 30 minutos.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Apex Legends.jpeg" alt="Apex Legends">
+            <label>Grátis</label>
+            <div class="description"><h6 style="color: black;">Seja lutando em uma cidade flutuante enorme no battle royale ou duelando em modos por tempo limitado, você terá que pensar rápido. Domine as habilidades únicas da sua Lenda e coordene-se com colegas de equipe para descobrir novas táticas e combinações poderosas.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Call Of Duty.jpeg" alt="call Of Duty">
+            <label>Grátis</label>
+            <div class="description"><h6 style="color: black;">É um jogo de tiro em primeira pessoa que faz parte da série "Call of Duty: Modern Warfare" e se passa em um ambiente de guerra moderna. O jogo é conhecido por sua jogabilidade intensa e sua campanha single-player, além de modos multiplayer competitivos.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/final fantasy vii.jpg" alt="final fantasy vii">
+            <label>R$ 19,90</label>
+            <div class="description"><h6 style="color: black;">o jogo original de 1997. A história do game gira em torno de Cloud Strife, que se junta a um grupo com o objetivo de derrubar a organização Shinra e salvar o mundo.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Naraka Bladepoint.jpeg" alt="Naraka Bladepoint">
+            <label>Grátis</label>
+            <div class="description"><h6 style="color: black;">é um jogo de battle royale desenvolvido pela 24 Entertainment e se destaca por sua ação intensa, combate corpo a corpo e elementos de fantasia. Naraka: Bladepoint é ambientado em um mundo de fantasia inspirado na mitologia chinesa, onde os jogadores escolhem entre uma variedade de heróis, cada um com habilidades únicas, para competir em uma ilha exótica.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Assetto Corsa Competizione.jpg" alt="Assetto Corsa Competizione">
+            <label>R$ 159,90</label>
+            <div class="description"><h6 style="color: black;">O Assetto Corsa é um jogo de corrida, para Windows, que leva fúria em quatro rodas aos hardwares dos amantes deste gênero. O game possui objetivos semelhantes aos outros títulos de corrida: ser o mais veloz e enfrentar desafios cada vez mais perigosos, com os mais diversos mapas e situações.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Dirt 4.jpeg" alt="Dirt 4">
+            <label>R$ 19,90</label>
+            <div class="description"><h6 style="color: black;">O seu objetivo é faturar os campeonatos, destravando cada vez mais corridas para participar. O jogo também conta com um modo online com eventos diários e semanais, além de alguns criados pela própria comunidade de jogadores, algo que deve gerar conteúdo por um bom tempo, trazendo sempre algo novo para competir.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Gran Turismo 7.jpeg" alt="Gran Turismo 7">
+            <label>R$ 129,90</label>
+            <div class="description"><h6 style="color: black;">O mundo está cheio de carros incríveis e emocionantes. Gran Turismo 7 destaca a longa história dos carros e sua cultura conforme o jogador os coleciona. O jogo foi projetado para permitir que os jogadores aprendam sobre as origens de cada modelo e o lugar deles na história à medida que o jogo avança.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Need For Speed Rivals.jpeg" alt="Need For Speed Rivals">
+            <label>R$ 249,90</label>
+            <div class="description"><h6 style="color: black;">Olha, Need for Speed funciona como a maioria dos games de corrida: é preciso dirigir um carro e o objetivo é vencer a prova em primeiro lugar. Daí você precisa ganhar corridas pra desbloquear mais veículos e circuitos.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Forza Horizon 5.jpeg" alt="Forza Horizon 5">
+            <label>R$ 229,90</label>
+            <div class="description"><h6 style="color: black;">Jogabilidade. Forza Horizon é um jogo em um festival, chamado Festival Horizon que ocorre no estado do Colorado. O objetivo é progredir no jogo depressa, destruir propriedade, vencer corridas de pilotagem.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Fifa 23.jpeg" alt="Fifa 23">
+            <label>R$ 149,90</label>
+            <div class="description"><h6 style="color: black;">FIFA 23 é um jogo eletrônico de simulação de futebol desenvolvido pela Electronic Arts. O jogo é o último a utilizar a marca FIFA no nome e foi lançado dia 27 de setembro de 2022.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Nba 2k.jpeg" alt="Nba 2k">
+            <label>R$ 79,90</label>
+            <div class="description"><h6 style="color: black;">é o novo jogo de basquete do estúdio Visual Concept e da editora 2K. O título já está disponível para Xbox Series X/S, Xbox One, PlayStation 5 (PS5), PlayStation 4 (PS4) e PC, trazendo um simulador realista que recria a melhor liga de basquete do mundo.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/F1 22.jpeg" alt="F1 22">
+            <label>R$ 209,90</label>
+            <div class="description"><h6 style="color: black;">é o videogame oficial dos campeonatos de Fórmula 1 e Fórmula 2 de 2022 e é o primeiro game da franquia comando pela EA Sports desde que a empresa adquiriu a Codemasters. </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Madden 23.jpeg" alt="Madden 23">
+            <label>R$ 149,90</label>
+            <div class="description"><h6 style="color: black;">A Electronic Arts (EA) lançou oficialmente o novo game da franquia de futebol americano, é a primeira edição após a morte, em dezembro de 2021, do lendário ex-treinador John Madden, que dá nome ao jogo.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Ride 4.jpeg" alt="Ride 4">
+            <label>R$ 59,90</label>
+            <div class="description"><h6 style="color: black;">Ride 4 é um videogame de corrida desenvolvido e publicado pela Milestone. Os jogadores se envolvem em corridas de motocicleta, seja para um jogador ou multijogador.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Dragon Ball FighterZ.jpeg" alt="Dragon Ball FighterZ">
+            <label>R$ 129,90</label>
+            <div class="description"><h6 style="color: black;"> Dragon Ball FighterZ é um jogo de luta 3-3. Cada jogador pode escolher 3 personagens e trocá-las a meio da batalha como bem desejar. Os jogadores possuem 3 botões de ataque básico à sua disposição (Leve, Médio e Forte) juntamente com um botão dedicado ao Ataque Especial.</h6></div> 
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Soulcalibur 6.jpeg" alt="Soulcalibur 6">
+            <label>R$ 89,90</label>
+            <div class="description"><h6 style="color: black;">é um jogo de luta 3D desenvolvido pela Projeto Soul e publicado pela Bandai Namco Entertainment. Ele foi lançado na Microsoft Windows, PlayStation 4 e Xbox One em 19 de outubro de 2018. De acordo com o produtor Motohiro Okubo, o jogo é uma comemoração do 20º aniversário da franquia.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Mortal Kombat 11.jpeg" alt="Mortal Kombat 11">
+            <label>R$ 100,00</label>
+            <div class="description"><h6 style="color: black;">é um jogo de luta em que dois jogadores lutam um contra o outro, usando uma enorme variedade de ataques.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Tekken 7.jpeg" alt="Tekken 7">
+            <label>R$ 49,90</label>
+            <div class="description"><h6 style="color: black;">Tekken 7 é um jogo eletrônico de luta desenvolvido e publicado pela Bandai Namco Entertainment. É o nono jogo da série de luta Tekken, sendo o primeiro a utilizar o motor de jogo Unreal Engine 4.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Street Fighter V.jpeg" alt="Street Fighter V">
+            <label>R$ 60,00 </label>
+            <div class="description"><h6 style="color: black;">objetivo é vencer uma série de lutas no torneio para se considerado o mais forte do mundo. Ryu luta e vence Sagat na final, se tornando campeão.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Project Cars 2.jpeg" alt="Project Cars 2">
+            <label>R$ 79,90</label>
+            <div class="description"><h6 style="color: black;">Project CARS 2 é um jogo eletrônico simulador de corridas desenvolvido pela Slightly Mad Studios e publicado pela Bandai Namco</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/PC Building Simulator.jpeg" alt="PC Building Simulator">
+            <label>R$ 40,00</label>
+            <div class="description"><h6 style="color: black;">PC Building Simulator traz o popular simulador de montagem e reparo de PCs agora para consoles, com um modo história e mais de mil peças licenciadas. O game começou como uma demo gratuita para computadores, e rapidamente teve mais de 750 mil downloads. Se tornando um jogo viral.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/X-Plane 11.jpeg" alt="X-Plane 11">
+            <label>R$ 38,90</label>
+            <div class="description"><h6 style="color: black;">X-Plane é um simulador de voo, desenvolvido para Linux, macOS e Microsoft Windows, que simula voos realistas com aeronaves. O X-Plane implementa um modelo de voo realista baseado nas forças exercidas sobre múltiplas secções de uma aeronave. Neste aspecto, é equivalente aos simuladores de voo "profissionais". </h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/The Sims 4.jpeg" alt="The Sims 4">
+            <label>Grátis</label>
+            <div class="description"><h6 style="color: black;">Qual é o objetivo do The Sims 4?
+                The Sims é um jogo de simulação de vida interativo para um jogador que lhe dá o poder de criar e controlar seu próprio personagem Sims. Você pode criar famílias, construir casas e realizar várias atividades do dia-a-dia, como dormir, comer, trabalhar, etc.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/uro Truck Simulator 2.jpeg" alt="Euro Truck Simulator 2">
+            <label>R$ 39,90</label>
+            <div class="description"><h6 style="color: black;">Euro Truck Simulator 2 permite que o jogador assuma o controle de um caminhoneiro de carga pelas estradas de 26 países da Europa. O simulador testa habilidades como velocidade, perseverança e paciência diante de engarrafamentos.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Minecraft.jpeg" alt="Minecraft">
+            <label>R$ 50,00</label>
+            <div class="description"><h6 style="color: black;">O principal objetivo do jogo é simplesmente construir. Você conta com uma série de ferramentas diferentes, que podem ser utilizadas tanto para coletar materiais quanto como armas. Ao coletar os blocos, o jogador tem a chance de utilizar seus recursos para construir o que bem entender.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Halo Infinite.jpeg" alt="Halo Infinite">
+            <label>R$ 50,00</label>
+            <div class="description"><h6 style="color: black;">Os jogadores batalham com vários alienígenas à medida que tentam descobrir os segredos do epônimo Halo, um mundo artificial em forma de anel. A Bungie começou o desenvolvimento do que viria a se tornar Halo em 1997.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Rainbow Six Siege.jpeg" alt="Rainbow Six Siege">
+            <label>R$ 60,90</label>
+            <div class="description"><h6 style="color: black;">São duas equipes de cinco jogadores se enfrentam na arena. Então, eles se alternam entre ataque e defesa no mapa selecionado, no formato de rounds e vence a partida o grupo que atingir 13 pontos primeiro.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Borderlands 3.jpeg" alt="Borderlands 3">
+            <label>R$ 99,90</label>
+            <div class="description"><h6 style="color: black;">Borderlands 3 é um popular jogo de tiro em primeira pessoa desenvolvido pela Gearbox Software. O jogo se passa em um mundo pós-apocalíptico e apresenta um estilo de arte distintivo, que combina gráficos cel-shaded com elementos de humor e caos.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Titanfall 2.jpeg" alt="Titanfall 2">
+            <label>R$ 70,00</label>
+            <div class="description"><h6 style="color: black;">Titanfall 2 é um videogame de tiro em primeira pessoa produzido pela Respawn Entertainment. Nele o soldado de baixa patente Jack Cooper e o titã BT são os únicos sobreviventes de uma missão mal-sucedida. Juntos, eles precisam sobreviver a um planeta infestado de inimigos e vidas de forma hostis.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Final Fantasy XIV.jpg" alt="Final Fantasy XIV">
+            <label>R$ 40,90</label>
+            <div class="description"><h6 style="color: black;">Final Fantasy XIV é uma extensa aventura online, onde milhares de jogadores partem para conquistar um mundo vasto, repleto de monstros ferozes, magias poderosas e mitos cativantes.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Diablo III.jpeg" alt="Diablo III">
+            <label>R$ 40,00</label>
+            <div class="description"><h6 style="color: black;">Diablo III apresenta uma aventura dividida em atos, na qual o jogador precisa, novamente, avançar entre hordas de monstros para salvar o mundo de mais uma ameaça das profundezas.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Cyberpunk 2077.jpeg" alt="Cyberpunk 2077">
+            <label>R$ 170,00</label>
+            <div class="description"><h6 style="color: black;">é um jogo eletrônico de RPG de ação jogado numa perspectiva em primeira pessoa na pele de V (Vincent/Valerie), um mercenário cuja voz, rosto, estilo de cabelo, tipo de corpo e modificações, história de origem e roupas são personalizáveis.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/The Witcher 3.jpeg" alt="The Witcher 3">
+            <label>R$ 49,90</label>
+            <div class="description"><h6 style="color: black;">The Witcher 3: Wild Hunt conclui a história do lendário bruxo Geralt de Rívia, o protagonista da série, que vem sendo contada nos jogos antecessores e nos livros da série cronologicamente anteriores a esses.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Mass Effect Andromeda.jpeg" alt="Mass Effect Andromeda">
+            <label>R$ 69,90</label>
+            <div class="description"><h6 style="color: black;">Uma tecnologia desenvolvida por uma antiga e misteriosa civilização é a base para a sobrevivência na galáxia, mas você precisa encarar um vilão perverso capaz de controlar mentes, no caminho. Esse é o plot de Mass Effect Andromeda e também do primeiro Mass Effect.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/star c.jpg" alt="Star Craft">
+            <label>Grátis</label>
+            <div class="description"><h6 style="color: black;">Em StarCraft II, os jogadores lidam com macroeconomia e microgerenciamento de unidades, indo até os limites de suas capacidades táticas e estratégicas.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Age of Empire II.jpeg" alt="Age of Empire II">
+            <label>R$ 29,90</label>
+            <div class="description"><h6 style="color: black;">Age of Empires II é um jogo de estratégia em tempo real (RTS) que se passa em uma época histórica que abrange a Idade Média. O jogo foi lançado pela Microsoft em 1999 e rapidamente se tornou um clássico no gênero de jogos de estratégia.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Plague Inc" alt="Plague Inc">
+            <label>R$ 20,00</label>
+            <div class="description"><h6 style="color: black;">Plague Inc é um jogo de estratégia disponível em várias plataformas, incluindo dispositivos móveis e computadores. Foi desenvolvido pela Ndemic Creations e lançado pela primeira vez em 2012. No jogo, os jogadores assumem o papel de um patógeno mortal e devem infectar e erradicar a população humana global.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Civilization VI.jpeg" alt="Civilization VI">
+            <label>R$ 24,90</label>
+            <div class="description"><h6 style="color: black;">é um jogo de estratégia e gerenciamento em turnos, em que o jogador escolhe um líder de uma civilização conhecida, como gregos, japoneses, brasileiros, persas, zulus entre outros.</h6></div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <img src="img/Loop Hero.jpeg" alt="Loop Hero">
+            <label>R$ 39,90</label>
+            <div class="description"><h6 style="color: black;">Loop Hero é um game indie de RPG sobre um herói preso em um looping de tempo, que tenta recordar como era o mundo antes de este ser destruído.</h6></div>
+        </div>
+
+        <div class="description" id="description">
+            <!-- Aqui a descrição do produto será exibida -->
+        </div>
+
+    </div>
+
+        <script>
+            function toggleDescription(card) {
+                var description = card.querySelector(".description");
+                if (description.style.display === "none" || description.style.display === "") {
+                    description.style.display = "block";
+                } else {
+                    description.style.display = "none";
+                }
+            }
+        </script>
+
+</body>
+</html>
